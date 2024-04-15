@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="designs.css">
+    <script src="script.js"></script>
+    <title>Password Strength Checker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h2 class="font" style="color:rgb(73, 73, 73)" for="password">Password Strength Checker</h2>
+        </div>
+        <div class="input">
+            <input type="password" id="password">
+        </div>
+        <div class="hide">
+            <button type="button" class="hide-button" onclick="togglePasswordVisibility()">Hide</button>
+        </div>
+        <div class="result">
+            <p id="result" style="white-space: nowrap;"></p>
+        </div>
+        <div class="strength-bar">
+            <div class="bar"></div>
+        </div>
+    </div>
+</body>
+</html>
